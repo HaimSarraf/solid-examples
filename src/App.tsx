@@ -1,3 +1,4 @@
+import LSP from "./components/app/LSP-App";
 import OCP from "./components/app/OCP-App";
 import SRP from "./components/app/SRP-App";
 
@@ -10,7 +11,9 @@ function App() {
       <div className="bg-green-200 flex flex-col">
         <p>
           The SRP App
-          <span className="text-xs font-extralight p-2">{"Note:please open your browser's console to check the logs"}</span>
+          <span className="text-xs font-extralight p-2">
+            {"Note:please open your browser's console to check the logs"}
+          </span>
         </p>
         <SRP />
       </div>
@@ -20,6 +23,14 @@ function App() {
       <div className="bg-slate-400">
         <p>The OCP App</p>
         <OCP />
+      </div>
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <div className="bg-green-200">
+        <p>The LSP App</p>
+        <LSP />
       </div>
     </div>
   );

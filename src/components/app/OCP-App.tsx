@@ -1,5 +1,5 @@
-import { Loading, ShowText } from "../Open-Close/OCR-Ok";
-import { Text } from "../Open-Close/OCR-Violated";
+import { Loading, ShowText } from "../Open-Close/OCP-Ok";
+import { Text } from "../Open-Close/OCP-Violated";
 
 export default function OCP() {
   return (
